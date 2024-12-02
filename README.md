@@ -19,7 +19,6 @@ Our data will be taken from Cornell's Macaulay Library. It will contain 140 imag
 - SCRIPTS/
     - image_dataset.ipynb
 - OUTPUT/
-    - 
 - README.md
 - LISCENSE.md
 
