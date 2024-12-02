@@ -1,4 +1,4 @@
-## Bird species classification based on body and beak size feature
+# Bird species classification based on body and beak size feature
 ### Allison Kerper, Elijah Kim, and Henry Chen
 Hypothesis: We expect to build a model that accurately calculates the relative size of a bird’s beak from a picture of the bird.
 
