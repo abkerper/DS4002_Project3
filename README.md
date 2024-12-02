@@ -14,11 +14,17 @@ Our data will be taken from Cornell's Macaulay Library. It will contain 140 imag
 ## Documentation Map
 - DATA/
     - raw_images/
-       * 140 .jpeg files
+      - 140 .jpeg files
     - dataset.npy
 - SCRIPTS/
-    - Scripts.ipynb
+    - image_dataset.ipynb
 - OUTPUT/
-    - RESULTS.pdf
+    - 
 - README.md
 - LISCENSE.md
+
+## Instructions for Reproducing
+- Download data from Cornell's Macaulay Library [1]
+- Use a for loop to iterate through each image, fixing them to a 240x240 pixel image and loading them into a numpy array
+- Export dataframe and load array into github
+- 
