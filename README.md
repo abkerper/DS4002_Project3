@@ -8,7 +8,7 @@ Our data will be taken from Cornell's Macaulay Library[1]. It will contain 140 i
 - Types of software used:
     - Python Jupyter Notebook
         - Done in Google Colab
-    - Python Packages Used:
+    - Python Packages Used: argparse, DataLoader, tqdm, segment_anything, numpy, os, PIL, imgviz, torch, typing, cv2, matplotlib, csv, scipy
 - Platform:
 
 ## Documentation Map
