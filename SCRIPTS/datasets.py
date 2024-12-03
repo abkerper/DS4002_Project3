@@ -1,3 +1,6 @@
+"""
+This file indexes and accesses all the data images used in the analysis
+"""
 from typing import Any
 import os.path as pth
 import cv2
@@ -14,7 +17,7 @@ def read_image(file_path):
     return cv2.imread(file_path)[...,[2,1,0]]
 
 class DataLoader:
-    def __init__(self, root_path='data/CUB_200_2011') -> None:
+    def __init__(self, root_path='DATA/caltech_images') -> None:
         super().__init__()
         self.image_paths = read_text(pth.join(root_path, 'images.txt'))
         self.bboxes = read_text(pth.join(root_path, 'bounding_boxes.txt')) # box means background-foreground binary segmentation

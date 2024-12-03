@@ -86,7 +86,7 @@ if __name__ == "__main__":
     sam = sam.to(device=device)
     predictor = SamPredictor(sam)
     
-    loader = DataLoader('data/CUB_200_2011')
+    loader = DataLoader('DATA/caltech_images')
     
     for index in tqdm(range(len(loader))):
         image_path, image, bboxes, point_coords, point_labels, click_coords, click_labels = loader(index)
