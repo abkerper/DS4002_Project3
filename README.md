@@ -86,3 +86,9 @@ python3 SCRIPTS/sam_segmentation.py --prompt=point --model=vit_h
 
 ## References
 [1]"Macaulay Library," Macaulay Library, [Online]. Available: https://www.macaulaylibrary.org/. [Accessed: Nov. 10, 2024].
+
+[2] C. Wah, S. Branson, P. Welinder, P. Peronaand S. Belongie, “The Caltech-UCSD Birds-200-2011 Dataset”, California Institute of Technology, Jul. 2011.
+
+[3] mmmmimic, “GitHub - mmmmimic/CUB-SAM: Segmenting Birds with SAM,” GitHub, 2023. https://github.com/mmmmimic/CUB-SAM (accessed Dec. 04, 2024).
+
+[2]A. Kirillov et al., “Segment Anything,” GitHub, Apr. 17, 2023. https://github.com/facebookresearch/segment-anything
